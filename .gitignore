@@ -1,0 +1,15 @@
+# Системные и временные файлы
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Логи обучения и служебные результаты
+catboost_info/
+runs/
+*.tfevents*
+
+# Файлы больше лимита GitHub (100 МБ)
+1 sem/2 task/store-sales-time-series-forecasting/train.csv
+2 sem/3-4 task/data/cifar-10-python.tar.gz
+2 sem/3-5 task/mlp_flowers.keras
